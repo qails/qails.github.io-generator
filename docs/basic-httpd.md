@@ -26,7 +26,7 @@ app.listen(port, (err) => {
     throw err;
   }
 
-  console.log(`✅ qails listening on port ${port}`);
+  console.log('✅ qails listening on port ' + port);
 });
 
 ```
