@@ -9,6 +9,8 @@ permalink: docs/requireAllRouters.html
 
 一个让 qails 支持批量引入目录中路由的方法。
 
+**已过期：该方法以前叫 `setupRoutes()` 方法**
+
 ## 用法
 ```js
 import { Qails, requireAllRouters } from 'qails';

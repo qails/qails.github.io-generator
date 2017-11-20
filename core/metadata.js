@@ -244,20 +244,20 @@ module.exports = {
       "permalink": "docs/pug.html"
     },
     {
+      "id": "requireAllRouters",
+      "title": "requireAllRouters",
+      "layout": "docs",
+      "category": "util方法",
+      "next": "watcher",
+      "permalink": "docs/requireAllRouters.html"
+    },
+    {
       "id": "session",
       "title": "session",
       "layout": "docs",
       "category": "util方法",
-      "next": "setuproutes",
+      "next": "requireAllRouters",
       "permalink": "docs/session.html"
-    },
-    {
-      "id": "setuproutes",
-      "title": "setupRoutes",
-      "layout": "docs",
-      "category": "util方法",
-      "next": "watcher",
-      "permalink": "docs/setuproutes.html"
     },
     {
       "id": "watcher",
