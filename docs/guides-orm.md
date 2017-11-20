@@ -1,6 +1,6 @@
 ---
 id: orm
-title: ORM
+title: 对象关系映射
 layout: docs
 category: 使用指南
 next: rest

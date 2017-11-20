@@ -3,15 +3,15 @@ id: installation
 title: 安装
 layout: docs
 category: 基础知识
-next: commands
+next: structure
 permalink: docs/installation.html
 ---
 
 ## 前提条件
 
-- node 7.6+
-- npm 3+
-- pm2(全局安装)
+- node@>=7.6.0
+- npm@>=3.0.0
+- pm2@>=2.0.0(全局安装)
 
 ## 安装
 ### 安装qails-cli

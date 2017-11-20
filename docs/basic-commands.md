@@ -7,30 +7,42 @@ next: configuration
 permalink: docs/commands.html
 ---
 
-Qails 内置了以下几个命令：
+Qails 内置了以下命令，这些命令可以在 `package.json` 的 scripts 直接使用
 
-命令|说明
----|---
-start|启动开发服务器
-build|编译项目
-lint|代码检查
-test|运行测试用例
-
-这些命令可以在 `package.json` 的 scripts 直接使用
-
-```json
+```js
 "scripts": {
-    "build": "babel src -d dist",
-    "init": "yarn migrate:rollback && yarn migrate:latest && yarn seed:run",
-    "lint": "eslint --quiet \"**/*.js\"",
+    // 初始化 MySQL 数据库并插入模拟数据
+    "db:init": "yarn migrate:rollback && yarn migrate:latest && yarn seed:run",
+
+    // 导出建表 MySQL 语句
+    "db:tosql": "babel-node scripts/tosql.js",
+
+    //
     "migrate:rollback": "babel-node ./node_modules/.bin/knex --knexfile=src/config/knexfile.js migrate:rollback",
+
+    //
     "migrate:latest": "babel-node ./node_modules/.bin/knex --knexfile=src/config/knexfile.js migrate:latest",
+
+    // 初始化模拟数据
     "seed:run": "babel-node ./node_modules/.bin/knex --knexfile=src/config/knexfile.js seed:run",
-    "release": "standard-version && npm publish",
+
+    // 编译项目
+    "build": "rimraf dist && babel src -d dist",
+
+    // JavaScript 语法检查
+    "lint": "eslint --fix --quiet \"**/*.js\"",
+
+    // npm hooks
     "postinstall": "babel-node scripts/postinstall.js",
-    "postrelease": "git push && git push origin --tags",
+
+    // 启动项目
     "start": "pm2 start ecosystem.config.js",
-    "test": "mocha --recursive --compilers js:babel-core/register && yarn lint"
+
+    // 测试项目
+    "test": "mocha",
+
+    // precommit hooks
+    "precommit": "yarn test && yarn lint"
 },
 
 ```

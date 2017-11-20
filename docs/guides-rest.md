@@ -1,9 +1,9 @@
 ---
 id: rest
-title: RESTful API
+title: RESTful APIs
 layout: docs
 category: 使用指南
-next: profiles
+next: test
 permalink: docs/rest.html
 ---
 

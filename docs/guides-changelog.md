@@ -1,9 +1,10 @@
 ---
-id: change-log
+id: changelog
 title: Chanagelog
 layout: docs
 category: 使用指南
-permalink: docs/change-log.html
+next: accesslog
+permalink: docs/changelog.html
 ---
 
 [查看 Changelog](https://github.com/qails/qails/blob/master/CHANGELOG.md)
