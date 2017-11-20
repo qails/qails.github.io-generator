@@ -1,20 +1,20 @@
 ---
-id: setuproutes
-title: setupRoutes
+id: requireAllRouters
+title: requireAllRouters
 layout: docs
 category: util方法
 next: watcher
-permalink: docs/setuproutes.html
+permalink: docs/requireAllRouters.html
 ---
 
 一个让 qails 支持批量引入目录中路由的方法。
 
 ## 用法
 ```js
-import { Qails, setupRoutes } from 'qails';
+import { Qails, requireAllRouters } from 'qails';
 
 const app = new Qails();
-setupRoutes(app, './routers');
+requireAllRouters(app, './routers');
 ```
 
 ## 参数

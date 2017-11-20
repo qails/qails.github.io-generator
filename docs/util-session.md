@@ -3,7 +3,7 @@ id: session
 title: session
 layout: docs
 category: util方法
-next: setuproutes
+next: requireAllRouters
 permalink: docs/session.html
 ---
 
