@@ -63,7 +63,7 @@ build.sh 主要完成以下几件事情：
 <websrv_type>static</websrv_type>
 
 <!--healthcheck（NG心跳检查）根目录，将%your_project_root%替换成项目在服务器上部署的实际路径-->
-<healthcheck_root>%your_project_root%/node_modules</healthcheck_root>
+<healthcheck_root>%your_project_root%</healthcheck_root>
 
 <!--发布排除项,以,分隔，可根据实际情况修改-->
 <rsync_exclude>logs,docs,migrations,seeds,test</rsync_exclude>
