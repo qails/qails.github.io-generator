@@ -15,10 +15,13 @@ permalink: docs/watcher.html
 ```
 # 统计服务器地址
 WATCHER_HOST=
+
 # 统计服务器端口
 WATCHER_PORT=
+
 # 统计名称前缀，用英文句号来标示节点的层级
 WATCHER_PREFIX=
+
 # 是否按机器名区分记录
 WATCHER_RECORD_BY_MACHINE=false
 ```
