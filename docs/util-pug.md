@@ -1,10 +1,10 @@
 ---
-id: pug
+id: util-pug
 title: pug
 layout: docs
 category: util方法
-next: session
-permalink: docs/pug.html
+next: util-session
+permalink: docs/util-pug.html
 ---
 
 一个让 qails 支持 pug 模版的方法。

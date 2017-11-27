@@ -1,10 +1,10 @@
 ---
-id: session
+id: util-session
 title: session
 layout: docs
 category: util方法
-next: requireAllRouters
-permalink: docs/session.html
+next: util-requireAllRouters
+permalink: docs/util-session.html
 ---
 
 一个让 qails 支持 session 的方法。

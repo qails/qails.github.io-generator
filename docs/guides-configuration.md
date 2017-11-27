@@ -1,10 +1,10 @@
 ---
-id: configuration
+id: guide-configuration
 title: profile 配置
 layout: docs
 category: 使用指南
-next: router
-permalink: docs/configuration.html
+next: guide-router
+permalink: docs/guide-configuration.html
 ---
 
 在开发过程中经常会碰到代码需要在不同的环境下某些变量的值是不同的，比如某些请求地址、debug 开关等。为了解决这类问题， qails 提供了类似 maven 中的 profiles 功能。

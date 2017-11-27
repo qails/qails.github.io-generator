@@ -1,10 +1,10 @@
 ---
-id: router
+id: guide-router
 title: 路由
 layout: docs
 category: 使用指南
-next: orm
-permalink: docs/router.html
+next: guide-orm
+permalink: docs/guide-router.html
 ---
 
 所有的 route 基于 [koa-router](https://www.npmjs.com/package/koa-router) ，放置在 `src/route` 下的文件会自动添加到服务器，支持目录和目录嵌套。

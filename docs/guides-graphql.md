@@ -1,10 +1,10 @@
 ---
-id: graphql
+id: guide-graphql
 title: GraphQL APIs
 layout: docs
 category: 使用指南
-next: test
-permalink: docs/graphql.html
+next: guide-test
+permalink: docs/guide-graphql.html
 ---
 
 Qails 中包含两部分和 GraphQL 相关的内容：

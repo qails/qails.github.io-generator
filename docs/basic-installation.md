@@ -1,10 +1,10 @@
 ---
-id: installation
+id: basic-installation
 title: 安装
 layout: docs
 category: 基础知识
-next: structure
-permalink: docs/installation.html
+next: basic-structure
+permalink: docs/basic-installation.html
 ---
 
 ## 前提条件

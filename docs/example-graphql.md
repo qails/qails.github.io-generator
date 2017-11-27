@@ -1,9 +1,9 @@
 ---
-id: ex-graphql
+id: example-graphql
 title: GraphQL APIs
 layout: docs
 category: 示例代码
-permalink: docs/ex-graphql.html
+permalink: docs/example-graphql.html
 ---
 
 演示如何使用 qails 创建 GraphQL 应用。

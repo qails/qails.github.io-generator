@@ -1,10 +1,10 @@
 ---
-id: requireAllRouters
+id: util-requireAllRouters
 title: requireAllRouters
 layout: docs
 category: util方法
-next: watcher
-permalink: docs/requireAllRouters.html
+next: util-watcher
+permalink: docs/util-requireAllRouters.html
 ---
 
 一个让 qails 支持批量引入目录中路由的方法。

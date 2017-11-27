@@ -1,10 +1,10 @@
 ---
-id: httpd
+id: basic-httpd
 title: HTTP 服务器
 layout: docs
 category: 基础知识
 next: basic-middlewares
-permalink: docs/httpd.html
+permalink: docs/basic-httpd.html
 ---
 
 Qails 使用 koa2 作为 webserver，所有 koa2 中间件都可以在 qails 中使用。

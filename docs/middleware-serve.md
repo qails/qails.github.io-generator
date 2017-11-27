@@ -1,10 +1,10 @@
 ---
-id: serve
+id: middleware-serve
 title: serveMiddleware
 layout: docs
 category: 中间件
-next: pug
-permalink: docs/serve.html
+next: util-pug
+permalink: docs/middleware-serve.html
 ---
 
 一个让 webserver 能提供静态文件服务的中间件。

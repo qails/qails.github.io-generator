@@ -1,10 +1,10 @@
 ---
-id: log
+id: guide-log
 title: 日志
 layout: docs
 category: 使用指南
-next: es6
-permalink: docs/log.html
+next: guide-es6
+permalink: docs/guide-log.html
 ---
 
 web服务通常有两种日志：

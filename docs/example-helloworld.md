@@ -1,10 +1,10 @@
 ---
-id: ex-helloworld
+id: example-helloworld
 title: Hello World
 layout: docs
 category: 示例代码
-next: ex-commonprofile
-permalink: docs/ex-helloworld.html
+next: example-commonprofile
+permalink: docs/example-helloworld.html
 ---
 
 演示用 qails 创建一个最简单 web 服务。

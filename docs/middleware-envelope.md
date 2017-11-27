@@ -1,10 +1,10 @@
 ---
-id: envelope
+id: middleware-envelope
 title: envelopeMiddleware
 layout: docs
 category: 中间件
-next: mw-graphql
-permalink: docs/envelope.html
+next: middleware-graphql
+permalink: docs/middleware-envelope.html
 ---
 
 为 ctx.body 增加公共封皮的中间件

@@ -1,10 +1,10 @@
 ---
-id: prettyjson
+id: middleware-prettyjson
 title: prettyJsonMiddleware
 layout: docs
 category: 中间件
-next: serve
-permalink: docs/prettyjson.html
+next: middleware-serve
+permalink: docs/middleware-prettyjson.html
 ---
 
 一个美化 JSON 数据输出格式的中间件。

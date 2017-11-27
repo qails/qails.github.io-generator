@@ -1,10 +1,10 @@
 ---
-id: commands
+id: basic-commands
 title: 命令
 layout: docs
 category: 基础知识
-next: configuration
-permalink: docs/commands.html
+next: basic-httpd
+permalink: docs/basic-commands.html
 ---
 
 Qails 内置了以下命令，这些命令可以在 `package.json` 的 scripts 直接使用

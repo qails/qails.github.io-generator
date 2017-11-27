@@ -1,10 +1,10 @@
 ---
-id: rest
+id: guide-rest
 title: RESTful APIs
 layout: docs
 category: 使用指南
-next: graphql
-permalink: docs/rest.html
+next: guide-graphql
+permalink: docs/guide-rest.html
 ---
 
 qails能根据model自动创建RESTful路由地址，该功能由 `qails/util/resource.js` 提供。

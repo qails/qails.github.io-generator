@@ -1,10 +1,10 @@
 ---
-id: ex-commonprofile
+id: example-commonprofile
 title: Common Profile
 layout: docs
 category: 示例代码
-next: ex-buildinsmiddlewares
-permalink: docs/ex-commonprofile.html
+next: example-buildinsmiddlewares
+permalink: docs/example-commonprofile.html
 ---
 
 演示如何使用 dotenv 加载多个配置文件。

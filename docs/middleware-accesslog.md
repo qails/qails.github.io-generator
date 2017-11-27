@@ -1,10 +1,10 @@
 ---
-id: accesslog
+id: middleware-accesslog
 title: accessLogMiddleware
 layout: docs
 category: 中间件
-next: bodyparser
-permalink: docs/accesslog.html
+next: middleware-bodyparser
+permalink: docs/middleware-accesslog.html
 ---
 
 这是用来记录服务器访问日志的中间件。

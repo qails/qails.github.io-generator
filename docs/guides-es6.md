@@ -1,10 +1,10 @@
 ---
-id: es6
+id: guide-es6
 title: 使用 ES6
 layout: docs
 category: 使用指南
-next: jenkins
-permalink: docs/es6.html
+next: guide-jenkins
+permalink: docs/guide-es6.html
 ---
 
 Qails 内置了 `babel`，可以使用最新的 ES6 书写代码。

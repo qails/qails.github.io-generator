@@ -1,10 +1,10 @@
 ---
-id: structure
+id: basic-structure
 title: 目录结构
 layout: docs
 category: 基础知识
-next: commands
-permalink: docs/structure.html
+next: basic-commands
+permalink: docs/basic-structure.html
 ---
 
 ```

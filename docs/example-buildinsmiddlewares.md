@@ -1,10 +1,10 @@
 ---
-id: ex-buildinsmiddlewares
+id: example-buildinsmiddlewares
 title: Buildins Middlewares
 layout: docs
 category: 示例代码
-next: ex-mixedmiddlewares
-permalink: docs/ex-buildinsmiddlewares.html
+next: example-mixedmiddlewares
+permalink: docs/example-buildinsmiddlewares.html
 ---
 
 演示如何使用 qails 内置的中间件。

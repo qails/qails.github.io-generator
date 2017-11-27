@@ -1,10 +1,10 @@
 ---
-id: watcher
+id: util-watcher
 title: watcher
 layout: docs
 category: util方法
-next: ex-helloworld
-permalink: docs/watcher.html
+next: example-helloworld
+permalink: docs/util-watcher.html
 ---
 
 一个封装了 watcher 打点的方法。

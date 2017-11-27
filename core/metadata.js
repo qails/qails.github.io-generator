@@ -5,36 +5,36 @@
 module.exports = {
   "files": [
     {
-      "id": "commands",
+      "id": "basic-commands",
       "title": "命令",
       "layout": "docs",
       "category": "基础知识",
-      "next": "configuration",
-      "permalink": "docs/commands.html"
+      "next": "basic-httpd",
+      "permalink": "docs/basic-commands.html"
     },
     {
-      "id": "getting-started",
+      "id": "basic-getting-started",
       "title": "概述",
       "layout": "docs",
       "category": "基础知识",
-      "next": "installation",
-      "permalink": "docs/getting-started.html"
+      "next": "basic-installation",
+      "permalink": "docs/basic-getting-started.html"
     },
     {
-      "id": "httpd",
+      "id": "basic-httpd",
       "title": "HTTP 服务器",
       "layout": "docs",
       "category": "基础知识",
       "next": "basic-middlewares",
-      "permalink": "docs/httpd.html"
+      "permalink": "docs/basic-httpd.html"
     },
     {
-      "id": "installation",
+      "id": "basic-installation",
       "title": "安装",
       "layout": "docs",
       "category": "基础知识",
-      "next": "structure",
-      "permalink": "docs/installation.html"
+      "next": "basic-structure",
+      "permalink": "docs/basic-installation.html"
     },
     {
       "id": "basic-middlewares",
@@ -45,235 +45,235 @@ module.exports = {
       "permalink": "docs/basic-middlewares.html"
     },
     {
-      "id": "structure",
+      "id": "basic-structure",
       "title": "目录结构",
       "layout": "docs",
       "category": "基础知识",
-      "next": "commands",
-      "permalink": "docs/structure.html"
+      "next": "basic-commands",
+      "permalink": "docs/basic-structure.html"
     },
     {
       "id": "basic-util",
       "title": "内置util方法",
       "layout": "docs",
       "category": "基础知识",
-      "next": "basic-util",
+      "next": "guide-configuration",
       "permalink": "docs/basic-util.html"
     },
     {
-      "id": "ex-buildinsmiddlewares",
+      "id": "example-buildinsmiddlewares",
       "title": "Buildins Middlewares",
       "layout": "docs",
       "category": "示例代码",
-      "next": "ex-mixedmiddlewares",
-      "permalink": "docs/ex-buildinsmiddlewares.html"
+      "next": "example-mixedmiddlewares",
+      "permalink": "docs/example-buildinsmiddlewares.html"
     },
     {
-      "id": "ex-commonprofile",
+      "id": "example-commonprofile",
       "title": "Common Profile",
       "layout": "docs",
       "category": "示例代码",
-      "next": "ex-buildinsmiddlewares",
-      "permalink": "docs/ex-commonprofile.html"
+      "next": "example-buildinsmiddlewares",
+      "permalink": "docs/example-commonprofile.html"
     },
     {
-      "id": "ex-graphql",
+      "id": "example-graphql",
       "title": "GraphQL APIs",
       "layout": "docs",
       "category": "示例代码",
-      "permalink": "docs/ex-graphql.html"
+      "permalink": "docs/example-graphql.html"
     },
     {
-      "id": "ex-helloworld",
+      "id": "example-helloworld",
       "title": "Hello World",
       "layout": "docs",
       "category": "示例代码",
-      "next": "ex-commonprofile",
-      "permalink": "docs/ex-helloworld.html"
+      "next": "example-commonprofile",
+      "permalink": "docs/example-helloworld.html"
     },
     {
-      "id": "ex-mixedmiddlewares",
+      "id": "example-mixedmiddlewares",
       "title": "Mixed Middlewares",
       "layout": "docs",
       "category": "示例代码",
-      "next": "ex-rest",
-      "permalink": "docs/ex-mixedmiddlewares.html"
+      "next": "example-rest",
+      "permalink": "docs/example-mixedmiddlewares.html"
     },
     {
-      "id": "ex-rest",
+      "id": "example-rest",
       "title": "RESTful APIs",
       "layout": "docs",
       "category": "示例代码",
-      "next": "ex-graphql",
-      "permalink": "docs/ex-rest.html"
+      "next": "example-graphql",
+      "permalink": "docs/example-rest.html"
     },
     {
-      "id": "changelog",
+      "id": "guide-changelog",
       "title": "Chanagelog",
       "layout": "docs",
       "category": "使用指南",
-      "next": "accesslog",
-      "permalink": "docs/changelog.html"
+      "next": "middleware-accesslog",
+      "permalink": "docs/guide-changelog.html"
     },
     {
-      "id": "configuration",
+      "id": "guide-configuration",
       "title": "profile 配置",
       "layout": "docs",
       "category": "使用指南",
-      "next": "router",
-      "permalink": "docs/configuration.html"
+      "next": "guide-router",
+      "permalink": "docs/guide-configuration.html"
     },
     {
-      "id": "es6",
+      "id": "guide-es6",
       "title": "使用 ES6",
       "layout": "docs",
       "category": "使用指南",
-      "next": "jenkins",
-      "permalink": "docs/es6.html"
+      "next": "guide-jenkins",
+      "permalink": "docs/guide-es6.html"
     },
     {
-      "id": "graphql",
+      "id": "guide-graphql",
       "title": "GraphQL APIs",
       "layout": "docs",
       "category": "使用指南",
-      "next": "test",
-      "permalink": "docs/graphql.html"
+      "next": "guide-test",
+      "permalink": "docs/guide-graphql.html"
     },
     {
-      "id": "jenkins",
+      "id": "guide-jenkins",
       "title": "用 Jenkins 发布",
       "layout": "docs",
       "category": "使用指南",
-      "next": "changelog",
-      "permalink": "docs/jenkins.html"
+      "next": "guide-changelog",
+      "permalink": "docs/guide-jenkins.html"
     },
     {
-      "id": "log",
+      "id": "guide-log",
       "title": "日志",
       "layout": "docs",
       "category": "使用指南",
-      "next": "es6",
-      "permalink": "docs/log.html"
+      "next": "guide-es6",
+      "permalink": "docs/guide-log.html"
     },
     {
-      "id": "orm",
+      "id": "guide-orm",
       "title": "对象关系映射",
       "layout": "docs",
       "category": "使用指南",
-      "next": "rest",
-      "permalink": "docs/orm.html"
+      "next": "guide-rest",
+      "permalink": "docs/guide-orm.html"
     },
     {
-      "id": "rest",
+      "id": "guide-rest",
       "title": "RESTful APIs",
       "layout": "docs",
       "category": "使用指南",
-      "next": "graphql",
-      "permalink": "docs/rest.html"
+      "next": "guide-graphql",
+      "permalink": "docs/guide-rest.html"
     },
     {
-      "id": "router",
+      "id": "guide-router",
       "title": "路由",
       "layout": "docs",
       "category": "使用指南",
-      "next": "orm",
-      "permalink": "docs/router.html"
+      "next": "guide-orm",
+      "permalink": "docs/guide-router.html"
     },
     {
-      "id": "test",
+      "id": "guide-test",
       "title": "单元测试",
       "layout": "docs",
       "category": "使用指南",
-      "next": "log",
-      "permalink": "docs/test.html"
+      "next": "guide-log",
+      "permalink": "docs/guide-test.html"
     },
     {
-      "id": "accesslog",
+      "id": "middleware-accesslog",
       "title": "accessLogMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "bodyparser",
-      "permalink": "docs/accesslog.html"
+      "next": "middleware-bodyparser",
+      "permalink": "docs/middleware-accesslog.html"
     },
     {
-      "id": "bodyparser",
+      "id": "middleware-bodyparser",
       "title": "bodyParserMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "cors",
-      "permalink": "docs/bodyparser.html"
+      "next": "middleware-cors",
+      "permalink": "docs/middleware-bodyparser.html"
     },
     {
-      "id": "cors",
+      "id": "middleware-cors",
       "title": "corsMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "envelope",
-      "permalink": "docs/cors.html"
+      "next": "middleware-envelope",
+      "permalink": "docs/middleware-cors.html"
     },
     {
-      "id": "envelope",
+      "id": "middleware-envelope",
       "title": "envelopeMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "mw-graphql",
-      "permalink": "docs/envelope.html"
+      "next": "middleware-graphql",
+      "permalink": "docs/middleware-envelope.html"
     },
     {
-      "id": "mw-graphql",
+      "id": "middleware-graphql",
       "title": "graphqlMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "prettyjson",
-      "permalink": "docs/mw-graphql.html"
+      "next": "middleware-prettyjson",
+      "permalink": "docs/middleware-graphql.html"
     },
     {
-      "id": "prettyjson",
+      "id": "middleware-prettyjson",
       "title": "prettyJsonMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "serve",
-      "permalink": "docs/prettyjson.html"
+      "next": "middleware-serve",
+      "permalink": "docs/middleware-prettyjson.html"
     },
     {
-      "id": "serve",
+      "id": "middleware-serve",
       "title": "serveMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "pug",
-      "permalink": "docs/serve.html"
+      "next": "util-pug",
+      "permalink": "docs/middleware-serve.html"
     },
     {
-      "id": "pug",
+      "id": "util-pug",
       "title": "pug",
       "layout": "docs",
       "category": "util方法",
-      "next": "session",
-      "permalink": "docs/pug.html"
+      "next": "util-session",
+      "permalink": "docs/util-pug.html"
     },
     {
-      "id": "requireAllRouters",
+      "id": "util-requireAllRouters",
       "title": "requireAllRouters",
       "layout": "docs",
       "category": "util方法",
-      "next": "watcher",
-      "permalink": "docs/requireAllRouters.html"
+      "next": "util-watcher",
+      "permalink": "docs/util-requireAllRouters.html"
     },
     {
-      "id": "session",
+      "id": "util-session",
       "title": "session",
       "layout": "docs",
       "category": "util方法",
-      "next": "requireAllRouters",
-      "permalink": "docs/session.html"
+      "next": "util-requireAllRouters",
+      "permalink": "docs/util-session.html"
     },
     {
-      "id": "watcher",
+      "id": "util-watcher",
       "title": "watcher",
       "layout": "docs",
       "category": "util方法",
-      "next": "ex-helloworld",
-      "permalink": "docs/watcher.html"
+      "next": "example-helloworld",
+      "permalink": "docs/util-watcher.html"
     }
   ]
 };
