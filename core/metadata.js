@@ -128,8 +128,16 @@ module.exports = {
       "title": "使用 ES6",
       "layout": "docs",
       "category": "使用指南",
-      "next": "configuration",
+      "next": "jenkins",
       "permalink": "docs/es6.html"
+    },
+    {
+      "id": "graphql",
+      "title": "GraphQL APIs",
+      "layout": "docs",
+      "category": "使用指南",
+      "next": "test",
+      "permalink": "docs/graphql.html"
     },
     {
       "id": "jenkins",
@@ -144,7 +152,7 @@ module.exports = {
       "title": "日志",
       "layout": "docs",
       "category": "使用指南",
-      "next": "jenkins",
+      "next": "es6",
       "permalink": "docs/log.html"
     },
     {
@@ -160,7 +168,7 @@ module.exports = {
       "title": "RESTful APIs",
       "layout": "docs",
       "category": "使用指南",
-      "next": "test",
+      "next": "graphql",
       "permalink": "docs/rest.html"
     },
     {
@@ -208,16 +216,16 @@ module.exports = {
       "title": "envelopeMiddleware",
       "layout": "docs",
       "category": "中间件",
-      "next": "graphql",
+      "next": "mw-graphql",
       "permalink": "docs/envelope.html"
     },
     {
-      "id": "graphql",
+      "id": "mw-graphql",
       "title": "graphqlMiddleware",
       "layout": "docs",
       "category": "中间件",
       "next": "prettyjson",
-      "permalink": "docs/graphql.html"
+      "permalink": "docs/mw-graphql.html"
     },
     {
       "id": "prettyjson",

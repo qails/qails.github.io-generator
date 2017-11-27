@@ -3,7 +3,7 @@ id: envelope
 title: envelopeMiddleware
 layout: docs
 category: 中间件
-next: graphql
+next: mw-graphql
 permalink: docs/envelope.html
 ---
 

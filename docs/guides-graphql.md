@@ -13,10 +13,46 @@ Qails 中包含两部分和 GraphQL 相关的内容：
 - GraphQL 数据操作函数
 
 ## GraphQL 中间件
-参考[GraphQL 中间件](/docs/graphql.html)
+参考[GraphQL 中间件](/docs/mw-graphql.html)
 
 ## GraphQL 数据操作函数
 一系列操作数据库的通用函数。
+
+### 用法
+```
+import { fetchList, fetchItem, create, update, destroy } from 'qails';
+import User from './model';
+import Post from '../post/model';
+
+export default {
+  User: {
+    async posts(parent, args) {
+      args = {...args, where: { user_id: parent.id } };
+      return await fetchList(Post, args);
+    }
+  },
+  Query: {
+    users: async (_, args) => {
+      return await fetchList(User, args);
+    },
+    user: async (_, { id, ...args }) => {
+      return await fetchItem(User, id, args);
+    }
+  },
+  Mutation: {
+    createUser: async (_, { input }) => {
+      return await create(User, input);
+    },
+    updateUser: async (_, { id, input }) => {
+      return await update(User, id, input);
+    },
+    deleteUser: async (_, { id }) => {
+      return await destroy(User, id);
+    }
+  }
+};
+
+```
 
 ### fetchList(model, query)
 获取列表，可以使用 `page&pageSize` 或者 `offset&limit` 来控制分页。
@@ -69,6 +105,23 @@ Qails 中包含两部分和 GraphQL 相关的内容：
 }
 ```
 
+无结果时返回 `EmptyResponse` 错误信息
+
+```
+{
+  "errors": [
+    {
+      "message": {
+        "message": "EmptyResponse"
+      }
+    }
+  ],
+  "data": {
+    "users": null
+  }
+}
+```
+
 ### fetchItem(model, id, query)
 获取一个对象模型。
 
@@ -85,6 +138,23 @@ Qails 中包含两部分和 GraphQL 相关的内容：
 ```
 {
   // id
+}
+```
+
+无结果时返回 `EmptyResponse` 错误信息
+
+```
+{
+  "errors": [
+    {
+      "message": {
+        "message": "EmptyResponse"
+      }
+    }
+  ],
+  "data": {
+    "user": null
+  }
 }
 ```
 

@@ -66,7 +66,7 @@ if (process.env.ENABLE === 'true') {
 
 - 目录加载的顺序如下:
     - /.env
-    - /profiles/${NODE_ENV}/\*\*/*.env
+    - /profiles/{NODE_ENV}/\*\*/*.env
     - /profiles/common/\*\*/*.env
 - 文件按文件名顺序加载
 - key值重复的配置 **先加载的有效**。

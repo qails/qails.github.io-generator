@@ -3,7 +3,7 @@ id: log
 title: 日志
 layout: docs
 category: 使用指南
-next: jenkins
+next: es6
 permalink: docs/log.html
 ---
 

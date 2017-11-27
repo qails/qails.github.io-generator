@@ -40,3 +40,66 @@ export default class User extends Model {
   - `tags`和`posts`的关联表名称应该为`posts_tags`
   - `users`和`tags`的关联表名称应该为`tags_users`
 - 关联表名中关联的字段默认为 `被关联表名称的单数_id`，如 `user_id` `tag_id` `post_id`
+
+## 内置的 bookshelf 插件
+Qails 内置了以下 bookshelf 插件：
+
+- **Pagination: 默认启用，不能禁用**
+- **bookshelf-modelbase: 默认启用，不能禁用**
+- Registry: 默认禁用
+- Virtuals: 默认禁用
+- Visibility: 默认禁用
+- bookshelf-cascade-delete: 默认禁用
+- bookshelf-json-columns: 默认禁用
+- bookshelf-mask: 默认禁用
+- bookshelf-paranoia: 默认禁用
+- bookshelf-uuid: 默认禁用
+
+[查看插件详细说明](http://bookshelfjs.org/#plugins)
+
+### 插件配置
+可以通过传递环境变量来控制插件是否启动，在 qails 框架中，和 bookshelf 相关的环境变量统一放在 `profiles/common/bookshelf.env` 中（[查看文件](https://github.com/qails/qails-cli/blob/master/templates/init/profiles/common/bookshelf.env)）
+
+```
+########################################
+#                                      #
+#               bookshelf配置           #
+#                                      #
+# 配置 bookshelf 模型具有的特性           #
+# 通过该配置决定使用哪些 bookshelf 插件    #
+#                                      #
+########################################
+
+######## 插件开关 ########
+# 让 Model 具有自动注册到中央位置的功能
+MODEL_REGISTRY=false
+
+# 让 Model 具有返回虚拟字段的功能
+MODEL_VIRTUALS=false
+
+# 让 Model 调用 toJSON 方法时具有显示／隐藏某些字段的功能
+MODEL_VISIBILITY=false
+
+# 让 Model 具有删除关联数据功能
+MODEL_CASCADEDELETE=false
+
+# 让 Model 具有返回自定义字段的功能
+MODEL_MASK=false
+
+# 让 Model 具有自动生成UUID的功能
+MODEL_UUID=false
+
+# 让 Model 具有自动存储序列化对象的能力
+MODEL_JSONCOLUMNS=false
+
+# 让 Model 具有自动转换对象 key 拼写的能力
+MODEL_MAGICCASE=false
+
+# 让 Model 具有软删除记录的能力
+MODEL_SOFTDELETE=false
+
+######## 插件参数 ########
+# UUID 生成器类型，默认值v4
+MODEL_UUID_TYPE=
+
+```
