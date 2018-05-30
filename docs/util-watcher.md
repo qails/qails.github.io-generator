@@ -31,11 +31,16 @@ import { increment, timing } from 'qails';
 
 var timer = new Date();
 
+// do something
+
+// 毫秒数
+var t = new Date() - timer;
+
 // 计数加 1
 increment('key');
 
 // 计时
-timing('some.timer', timer);
+timing('some.timer', t);
 ```
 
 ## increment
